@@ -4,6 +4,24 @@
 //#include "config_common.h"
 #pragma once
 
+/*
+ * This file has been automatically generated using ChibiStudio board
+ * generator plugin. Do not edit manually.
+ */
+
+#include "hal.h"
+
+/*
+ * Board identifier.
+ */
+#define BOARD_RP_PICO_RP2040
+#define BOARD_NAME                  "Raspberry Pi Pico"
+
+/*
+ * MCU type.
+ */
+#define RP2040
+
 #define RAW_USAGE_PAGE 0xFF60
 #define RAW_USAGE_ID 0x61
 
