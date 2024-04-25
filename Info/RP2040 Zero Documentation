@@ -1,7 +1,11 @@
-RP2040-Zero
+#RP2040-Zero
 by Waveshare
 
-
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://www.waveshare.com/img/devkit/RP2040-Zero/RP2040-Zero-details-1.jpg">
+ <source media="(prefers-color-scheme: light)" srcset="https://www.waveshare.com/img/devkit/RP2040-Zero/RP2040-Zero-details-1.jpg">
+ <img alt="Waveshare RP2040-Zero Microcontroller Image" src="https://www.waveshare.com/img/devkit/RP2040-Zero/RP2040-Zero-details-1.jpg">
+</picture>
 
 a Pico-like MCU board based on Raspberry Pi RP2040
 
