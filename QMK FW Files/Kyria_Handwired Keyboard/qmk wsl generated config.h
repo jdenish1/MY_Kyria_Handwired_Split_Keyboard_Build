@@ -10,7 +10,6 @@
  */
 
 #include "hal.h"
-#include "kb.h"
 
 /*
  * Board identifier.
