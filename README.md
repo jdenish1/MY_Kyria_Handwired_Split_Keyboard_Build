@@ -73,29 +73,27 @@ Anyways, just made this public in case it helps anyone else out, in the spirit o
 
 ### Prerequisites
 
-The recommended method to install **Amazing GitHub Template** is by using [Cookiecutter](https://github.com/cookiecutter/cookiecutter). For manual install please refer to [manual setup section](#manual-setup).
+Download [QMK_MSYS](https://github.com/qmk/qmk_distro_msys/releases/download/1.9.0/QMK_MSYS.exe)
+-or- If you use WSL - Windows Subsidiary for Linux - Download [QMK_WSL](https://github.com/qmk/qmk_distro_wsl/releases/download/0.4.2/QMK_WSL.exe)
 
-The easiest way to install Cookiecutter is by running:
+Go to [qmk_firmware](https://github.com/qmk/qmk_firmware) and Fork your own repo 
+[MY Repo](https://github.com/jdenish1/qmk_firmware)
 
+Install QMK_WSL and run
 ```sh
-pip install --user cookiecutter
+qmk-admin
 ```
-
-For other install options, please refer to [Cookiecutter installation manual](https://cookiecutter.readthedocs.io/en/latest/installation.html).
+and complete quickstart wizard using your fork of qmk_firmware.
 
 ### Usage
 
-#### Cookiecutter template
-
-After installing Cookiecutter, all you need to do is to run the following command:
-
+Run
 ```sh
-cookiecutter gh:dec0dOS/amazing-github-template
+qmk compile -kb <keyboard/location> -km <keymap/location>
 ```
 
-You will get an interactive prompt where you'll specify relevant options for your project (or the default value will be used).
-
-![Preview](docs/images/preview.svg)
+<img src=https://wsl.qmk.fm/compile.png>
+<img src=https://wsl.qmk.fm/finish.png>
 
 #### Manual setup
 
