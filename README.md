@@ -2,6 +2,8 @@
 
 <div align="center">
 <br />
+<img src="https://github.com/jdenish1/MY_Kyria_Handwired_Split_Keyboard_Build/assets/96416029/91b6aab6-f79d-471f-91d8-8aa66da75762"
+
 [![made with hearth by dec0dOS](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-dec0dOS-ff1414.svg?style=flat-square)](https://github.com/dec0dOS)
 
 </div>
